@@ -47,7 +47,7 @@ const WalletProvider: React.FC<PropsWithChildren<unknown>> = ({ children }) => {
   }, [selectedAccount]);
 
   useEffect(() => {
-    web3Enable("InterlayIssue");
+    web3Enable("MangataIssue");
   }, []);
 
   return (
